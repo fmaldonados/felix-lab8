@@ -95,7 +95,7 @@ int main(int argc, char* argv[]){
                                                         cout<< i+1<< "- "<<lista_obras[i].toString()<<endl<<endl;
 				}else{
 					if(opcion==4){
-						for(int i=0;i<lista_obras.size();i++)
+						for(int i=0;i<lista_transferidos.size();i++)
                                                         cout<< i+1<< "- "<<lista_transferidos[i]<<endl<<endl;
 
 					}else{
