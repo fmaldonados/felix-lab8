@@ -7,5 +7,5 @@ class obras{
   public:
 	obras(string, string, string);
 	~obras();
-	string toString()const;
+	virtual string toString()const;
 };
